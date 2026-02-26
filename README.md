@@ -14,15 +14,7 @@ The program is structured to handle data for **10 students** and perform the fol
 * Full student profiles.
 * Calculated total marks for each subject per student.
 * Class-wide statistics, including the **Maximum** and **Minimum CGPA**.
-
-
-
-
-
 ---
-
-## 📁 File Structure
-
 ## 📁 File Structure
 
 | File | Description |
