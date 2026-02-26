@@ -33,18 +33,14 @@ The program is structured to handle data for **10 students** and perform the fol
 
 ## 📁 File Structure
 
+## 📁 File Structure
+
 | File | Description |
-| --- | --- |
-| `Program.c` | The core source code containing the logic for file I/O and data processing. |
-| `Assignment.pdf` | The original project specification and requirements.
-
- |
-| `input.txt` / `DATAS.txt` | Sample input files containing raw student data.
-
- |
-| `output.txt` | The final generated report including student details and statistics.
-
- |
+| :--- | :--- |
+| **Program.c** | The core source code containing the logic for file I/O and data processing. |
+| **Assignment.pdf** | The original project specification and requirements. |
+| **input.txt / DATAS.txt** | Sample input files containing raw student data for 10 students. |
+| **output.txt** | The final generated report including student profiles, totals, and CGPA statistics. |
 
 ---
 
