@@ -8,21 +8,11 @@ This repository contains a C program designed to manage a student database. The 
 
 The program is structured to handle data for **10 students** and perform the following automated tasks:
 
-* 
 **Student Data Structuring**: Stores student names, IDs, a 2D array of marks for three subjects (Attendance, CT, Mid, and Final), and overall CGPA.
-
-
-* 
 **File-Based Input**: Populates student records by reading data from `input.txt` using file operations.
-
-
 * **Detailed Reporting**: Generates a comprehensive `output.txt` file containing:
 * Full student profiles.
-
-
 * Calculated total marks for each subject per student.
-
-
 * Class-wide statistics, including the **Maximum** and **Minimum CGPA**.
 
 
@@ -62,18 +52,9 @@ struct student {
 ### Core Functions
 
 * `write_input()`: Interactively takes user input and writes it to the initial data file.
-* 
-`print()`: Formats and writes the basic student info to the output file.
-
-
-* 
-`printtotal()`: Calculates the sum of all four assessment marks for each of the three subjects.
-
-
-* 
-`maxCGPA()` / `minCGPA()`: Iterates through the student array to identify the highest and lowest performers.
-
-
+* `print()`: Formats and writes the basic student info to the output file.
+* `printtotal()`: Calculates the sum of all four assessment marks for each of the three subjects.
+* `maxCGPA()` / `minCGPA()`: Iterates through the student array to identify the highest and lowest performers.
 
 ---
 
